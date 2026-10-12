@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>تك زون | Tech Zone</title>
+
+  <meta
+    name="description"
+    content="تك زون متجر إلكترونيات وتقنية لشراء الهواتف واللابتوبات والساعات الذكية والسماعات والإكسسوارات"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       الشريط العلوي
+  ========================== -->
+
+  <div class="top-bar">
+    <div class="container top-bar-content">
+
+      <p>
+        <i class="fa-solid fa-bolt"></i>
+        شحن مجاني للطلبات التي تزيد عن 100 دينار
+      </p>
+
+      <div class="top-links">
+        <a href="#offers">العروض</a>
+        <a href="#contact">تواصل معنا</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- =========================
+       الهيدر
+  ========================== -->
+
+  <header class="main-header" id="mainHeader">
+
+    <div class="container header-content">
+
+      <a href="#home" class="logo">
+        <span class="logo-icon">
+          <i class="fa-solid fa-microchip"></i>
+        </span>
+
+        <span class="logo-text">
+          <strong>تك زون</strong>
+          <small>Tech Zone</small>
+        </span>
+      </a>
+
+
+      <nav class="desktop-nav">
+
+        <a href="#home" class="nav-link active">
+          الرئيسية
+        </a>
+
+        <a href="#products" class="nav-link">
+          المنتجات
+        </a>
+
+        <a href="#categories" class="nav-link">
+          الأقسام
+        </a>
+
+        <a href="#offers" class="nav-link">
+          العروض
+        </a>
+
+        <a href="#contact" class="nav-link">
+          تواصل معنا
+        </a>
+
+      </nav>
+
+
+      <div class="header-actions">
+
+        <button
+          class="icon-btn search-toggle"
+          id="searchToggle"
+          aria-label="البحث"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+
+        <button
+          class="icon-btn wishlist-btn"
+          id="wishlistBtn"
+          aria-label="المفضلة"
+        >
+          <i class="fa-regular fa-heart"></i>
+
+          <span class="action-count" id="wishlistCount">
+            0
+          </span>
+        </button>
+
+
+        <button
+          class="icon-btn cart-btn"
+          id="cartBtn"
+          aria-label="سلة المشتريات"
+        >
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          <span class="action-count" id="cartCount">
+            0
+          </span>
+        </button>
+
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="القائمة"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div class="search-panel" id="searchPanel">
+
+      <div class="container search-panel-content">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+          type="search"
+          id="mainSearchInput"
+          placeholder="ابحث عن هاتف أو لابتوب أو سماعة"
+          autocomplete="off"
+        >
+
+        <button
+          type="button"
+          id="closeSearch"
+          aria-label="إغلاق البحث"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home">الرئيسية</a>
+      <a href="#products">المنتجات</a>
+      <a href="#categories">الأقسام</a>
+      <a href="#offers">العروض</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         الرئيسية
+    ========================== -->
+
+    <section class="hero" id="home">
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <span class="hero-badge">
+            <i class="fa-solid fa-bolt"></i>
+            أحدث التقنيات بين يديك
+          </span>
+
+          <h1>
+            كل عالم التقنية
+            <span>في مكان واحد</span>
+          </h1>
+
+          <p>
+            اكتشف أحدث الهواتف واللابتوبات والساعات الذكية والسماعات
+            والإكسسوارات بأسعار مميزة وتجربة تسوق سهلة وسريعة
+          </p>
+
+
+          <div class="hero-buttons">
+
+            <a href="#products" class="primary-btn">
+              تسوق الآن
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+            <a href="#offers" class="secondary-btn">
+              شاهد العروض
+            </a>
+
+          </div>
+
+
+          <div class="hero-features">
+
+            <div>
+              <i class="fa-solid fa-truck-fast"></i>
+
+              <span>
+                <strong>توصيل سريع</strong>
+                <small>إلى جميع المناطق</small>
+              </span>
+            </div>
+
+
+            <div>
+              <i class="fa-solid fa-shield-halved"></i>
+
+              <span>
+                <strong>منتجات موثوقة</strong>
+                <small>جودة مضمونة</small>
+              </span>
+            </div>
+
+
+            <div>
+              <i class="fa-solid fa-headset"></i>
+
+              <span>
+                <strong>دعم مستمر</strong>
+                <small>نحن هنا لمساعدتك</small>
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+          <div class="hero-circle"></div>
+
+          <img
+            src="https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=85"
+            alt="أجهزة تقنية حديثة"
+          >
+
+          <div class="floating-card floating-card-one">
+            <i class="fa-solid fa-tags"></i>
+
+            <span>
+              <strong>خصومات</strong>
+              حتى 30%
+            </span>
+          </div>
+
+
+          <div class="floating-card floating-card-two">
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <span>
+              <strong>توصيل سريع</strong>
+              لطلبك
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         الخدمات
+    ========================== -->
+
+    <section class="services-strip">
+
+      <div class="container services-grid">
+
+        <article class="service-item">
+          <div class="service-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+
+          <div>
+            <h3>شحن سريع</h3>
+            <p>توصيل سريع وآمن للطلبات</p>
+          </div>
+        </article>
+
+
+        <article class="service-item">
+          <div class="service-icon">
+            <i class="fa-solid fa-credit-card"></i>
+          </div>
+
+          <div>
+            <h3>دفع آمن</h3>
+            <p>خيارات دفع متعددة وآمنة</p>
+          </div>
+        </article>
+
+
+        <article class="service-item">
+          <div class="service-icon">
+            <i class="fa-solid fa-rotate-left"></i>
+          </div>
+
+          <div>
+            <h3>استبدال سهل</h3>
+            <p>سياسة استبدال واضحة ومرنة</p>
+          </div>
+        </article>
+
+
+        <article class="service-item">
+          <div class="service-icon">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+
+          <div>
+            <h3>دعم العملاء</h3>
+            <p>مساعدة قبل وبعد الشراء</p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         الأقسام
+    ========================== -->
+
+    <section class="section categories-section" id="categories">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="section-label">اكتشف الأقسام</span>
+            <h2>تسوق حسب الفئة</h2>
+          </div>
+
+          <p>
+            اختر القسم الذي تبحث عنه واكتشف أفضل المنتجات التقنية
+          </p>
+
+        </div>
+
+
+        <div class="categories-grid">
+
+          <button class="category-card" data-category="phones">
+            <div class="category-icon">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3>الهواتف الذكية</h3>
+            <span>اكتشف المنتجات</span>
+          </button>
+
+
+          <button class="category-card" data-category="laptops">
+            <div class="category-icon">
+              <i class="fa-solid fa-laptop"></i>
+            </div>
+            <h3>اللابتوبات</h3>
+            <span>اكتشف المنتجات</span>
+          </button>
+
+
+          <button class="category-card" data-category="watches">
+            <div class="category-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <h3>الساعات الذكية</h3>
+            <span>اكتشف المنتجات</span>
+          </button>
+
+
+          <button class="category-card" data-category="audio">
+            <div class="category-icon">
+              <i class="fa-solid fa-headphones"></i>
+            </div>
+            <h3>السماعات</h3>
+            <span>اكتشف المنتجات</span>
+          </button>
+
+
+          <button class="category-card" data-category="accessories">
+            <div class="category-icon">
+              <i class="fa-solid fa-keyboard"></i>
+            </div>
+            <h3>الإكسسوارات</h3>
+            <span>اكتشف المنتجات</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         العروض
+    ========================== -->
+
+    <section class="section offers-section" id="offers">
+
+      <div class="container">
+
+        <div class="offer-banner">
+
+          <div class="offer-content">
+
+            <span class="offer-label">
+              عرض الأسبوع
+            </span>
+
+            <h2>
+              وفر حتى
+              <strong>30%</strong>
+              على مختارات التقنية
+            </h2>
+
+            <p>
+              فرصة مميزة للحصول على منتجاتك التقنية المفضلة بأسعار خاصة لفترة محدودة
+            </p>
+
+
+            <div class="countdown" id="countdown">
+
+              <div>
+                <strong id="days">00</strong>
+                <span>يوم</span>
+              </div>
+
+              <div>
+                <strong id="hours">00</strong>
+                <span>ساعة</span>
+              </div>
+
+              <div>
+                <strong id="minutes">00</strong>
+                <span>دقيقة</span>
+              </div>
+
+              <div>
+                <strong id="seconds">00</strong>
+                <span>ثانية</span>
+              </div>
+
+            </div>
+
+
+            <a href="#products" class="primary-btn offer-shop-btn">
+              تسوق العروض
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+          </div>
+
+
+          <div class="offer-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85"
+              alt="عرض على هاتف ذكي"
+            >
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         المنتجات
+    ========================== -->
+
+    <section class="section products-section" id="products">
+
+      <div class="container">
+
+        <div class="section-heading products-heading">
+
+          <div>
+            <span class="section-label">منتجات تك زون</span>
+            <h2>منتجات مختارة لك</h2>
+          </div>
+
+
+          <div class="products-tools">
+
+            <div class="products-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              <input
+                type="search"
+                id="productSearch"
+                placeholder="ابحث عن منتج"
+              >
+            </div>
+
+
+            <select id="sortProducts" aria-label="ترتيب المنتجات">
+
+              <option value="default">
+                الترتيب الافتراضي
+              </option>
+
+              <option value="low">
+                السعر من الأقل للأعلى
+              </option>
+
+              <option value="high">
+                السعر من الأعلى للأقل
+              </option>
+
+              <option value="rating">
+                الأعلى تقييمًا
+              </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+
+        <div class="filter-buttons">
+
+          <button class="filter-btn active" data-filter="all">
+            الكل
+          </button>
+
+          <button class="filter-btn" data-filter="phones">
+            الهواتف
+          </button>
+
+          <button class="filter-btn" data-filter="laptops">
+            اللابتوبات
+          </button>
+
+          <button class="filter-btn" data-filter="watches">
+            الساعات
+          </button>
+
+          <button class="filter-btn" data-filter="audio">
+            السماعات
+          </button>
+
+          <button class="filter-btn" data-filter="accessories">
+            الإكسسوارات
+          </button>
+
+        </div>
+
+
+        <div class="products-grid" id="productsGrid"></div>
+
+
+        <div class="no-products" id="noProducts">
+
+          <i class="fa-solid fa-box-open"></i>
+
+          <h3>لم نجد منتجات مطابقة</h3>
+
+          <p>
+            جرّب البحث بكلمة أخرى أو اختر قسمًا مختلفًا
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         عروض إضافية
+    ========================== -->
+
+    <section class="section promo-section">
+
+      <div class="container">
+
+        <div class="promo-grid">
+
+          <article class="promo-card promo-dark">
+
+            <div class="promo-content">
+
+              <span>أجهزة للعمل والدراسة</span>
+
+              <h3>اختر لابتوبك الجديد</h3>
+
+              <p>
+                أداء قوي وتصاميم حديثة تناسب احتياجاتك اليومية
+              </p>
+
+              <button
+                class="promo-filter-btn"
+                data-promo-category="laptops"
+              >
+                اكتشف اللابتوبات
+              </button>
+
+            </div>
+
+
+            <img
+              src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=85"
+              alt="لابتوب حديث"
+            >
+
+          </article>
+
+
+          <article class="promo-card promo-light">
+
+            <div class="promo-content">
+
+              <span>صوت بلا حدود</span>
+
+              <h3>سماعات تناسب أسلوبك</h3>
+
+              <p>
+                استمتع بتجربة صوت واضحة في العمل والترفيه
+              </p>
+
+              <button
+                class="promo-filter-btn"
+                data-promo-category="audio"
+              >
+                اكتشف السماعات
+              </button>
+
+            </div>
+
+
+            <img
+              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
+              alt="سماعات رأس"
+            >
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         النشرة البريدية
+    ========================== -->
+
+    <section class="newsletter-section">
+
+      <div class="container newsletter-content">
+
+        <div>
+
+          <span class="newsletter-icon">
+            <i class="fa-regular fa-envelope"></i>
+          </span>
+
+          <div>
+            <h2>كن أول من يعرف عروضنا</h2>
+            <p>اشترك ليصلك كل جديد من تك زون</p>
+          </div>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletterForm">
+
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="أدخل بريدك الإلكتروني"
+            required
+          >
+
+          <button type="submit">
+            اشتراك
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         تواصل معنا
+    ========================== -->
+
+    <section class="section contact-section" id="contact">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="section-label">
+              نحن هنا لمساعدتك
+            </span>
+
+            <h2>
+              تواصل مع تك زون
+            </h2>
+          </div>
+
+          <p>
+            هذا متجر تجريبي لعرض تصميم ووظائف المتاجر الإلكترونية
+          </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+          <!-- واتساب -->
+
+          <article class="contact-card">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <h3>واتساب</h3>
+
+            <p>
+              افتح تطبيق واتساب للتواصل
+            </p>
+
+            <a
+              href="https://www.whatsapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              فتح واتساب
+            </a>
+
+          </article>
+
+
+          <!-- الهاتف -->
+
+          <article class="contact-card">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <h3>الهاتف</h3>
+
+            <p>
+              نموذج لوظيفة الاتصال المباشر
+            </p>
+
+            <a href="tel:+15550101000">
+              +1 555 010 1000
+            </a>
+
+          </article>
+
+
+          <!-- البريد الإلكتروني -->
+
+          <article class="contact-card">
+
+            <i class="fa-regular fa-envelope"></i>
+
+            <h3>البريد الإلكتروني</h3>
+
+            <p>
+              نموذج لوظيفة التواصل عبر البريد
+            </p>
+
+            <a href="mailto:support@techzone-demo.com">
+              support@techzone-demo.com
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       الفوتر
+  ========================== -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="logo footer-logo">
+
+          <span class="logo-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </span>
+
+          <span class="logo-text">
+            <strong>تك زون</strong>
+            <small>Tech Zone</small>
+          </span>
+
+        </a>
+
+        <p>
+          وجهتك للتقنية الحديثة
+          منتجات مختارة وتجربة تسوق سهلة وآمنة
+        </p>
+
+
+        <div class="social-links">
+
+          <a href="#" aria-label="فيسبوك">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" aria-label="إنستغرام">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="تيك توك">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a
+            href="https://www.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="واتساب"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>روابط سريعة</h3>
+
+        <a href="#home">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#categories">الأقسام</a>
+        <a href="#offers">العروض</a>
+        <a href="#contact">تواصل معنا</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>الأقسام</h3>
+
+        <button class="footer-category" data-footer-category="phones">
+          الهواتف الذكية
+        </button>
+
+        <button class="footer-category" data-footer-category="laptops">
+          اللابتوبات
+        </button>
+
+        <button class="footer-category" data-footer-category="watches">
+          الساعات الذكية
+        </button>
+
+        <button class="footer-category" data-footer-category="audio">
+          السماعات
+        </button>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>خدمة العملاء</h3>
+
+        <a href="#contact">تواصل معنا</a>
+        <a href="#products">المنتجات</a>
+        <a href="#offers">العروض</a>
+        <a href="#categories">الأقسام</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          جميع الحقوق محفوظة ©
+          <span id="currentYear"></span>
+          تك زون
+        </p>
+
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-solid fa-money-bill-wave"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================
+       السلة
+  ========================== -->
+
+  <div class="drawer-overlay" id="cartOverlay"></div>
+
+
+  <aside class="side-drawer cart-drawer" id="cartDrawer">
+
+    <div class="drawer-header">
+
+      <div>
+        <h2>
+          <i class="fa-solid fa-cart-shopping"></i>
+          سلة المشتريات
+        </h2>
+
+        <p id="cartItemsText">
+          السلة فارغة
+        </p>
+      </div>
+
+      <button
+        class="drawer-close"
+        id="closeCart"
+        aria-label="إغلاق السلة"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+
+    <div class="drawer-body" id="cartItems">
+
+      <div class="empty-state">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3>سلتك فارغة</h3>
+        <p>أضف بعض المنتجات لتظهر هنا</p>
+      </div>
+
+    </div>
+
+
+    <div class="cart-footer" id="cartFooter">
+
+      <div class="cart-summary-row">
+        <span>المجموع الفرعي</span>
+        <strong id="cartSubtotal">0 د.أ</strong>
+      </div>
+
+      <div class="cart-summary-row">
+        <span>التوصيل</span>
+        <strong id="shippingCost">0 د.أ</strong>
+      </div>
+
+      <div class="cart-summary-row total-row">
+        <span>الإجمالي</span>
+        <strong id="cartTotal">0 د.أ</strong>
+      </div>
+
+      <button class="checkout-btn" id="checkoutBtn">
+        إتمام الطلب
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <!-- =========================
+       المفضلة
+  ========================== -->
+
+  <div class="drawer-overlay" id="wishlistOverlay"></div>
+
+
+  <aside class="side-drawer wishlist-drawer" id="wishlistDrawer">
+
+    <div class="drawer-header">
+
+      <div>
+        <h2>
+          <i class="fa-regular fa-heart"></i>
+          المفضلة
+        </h2>
+
+        <p>المنتجات التي أعجبتك</p>
+      </div>
+
+      <button
+        class="drawer-close"
+        id="closeWishlist"
+        aria-label="إغلاق المفضلة"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+
+    <div class="drawer-body" id="wishlistItems">
+
+      <div class="empty-state">
+        <i class="fa-regular fa-heart"></i>
+        <h3>لا توجد منتجات في المفضلة</h3>
+        <p>اضغط على القلب لإضافة منتج</p>
+      </div>
+
+    </div>
+
+  </aside>
+
+
+  <!-- =========================
+       تفاصيل المنتج
+  ========================== -->
+
+  <div class="modal-overlay" id="productModal">
+
+    <div class="product-modal-box">
+
+      <button
+        class="modal-close"
+        id="closeProductModal"
+        aria-label="إغلاق"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div
+        class="product-modal-content"
+        id="productModalContent"
+      ></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       إتمام الطلب
+  ========================== -->
+
+  <div class="modal-overlay" id="checkoutModal">
+
+    <div class="checkout-modal-box">
+
+      <button
+        class="modal-close"
+        id="closeCheckoutModal"
+        aria-label="إغلاق"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+
+      <div class="checkout-header">
+
+        <span class="checkout-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </span>
+
+        <div>
+          <h2>إتمام الطلب</h2>
+          <p>أدخل بياناتك لإرسال الطلب</p>
+        </div>
+
+      </div>
+
+
+      <form class="checkout-form" id="checkoutForm">
+
+        <div class="form-grid">
+
+          <div class="form-group">
+
+            <label for="customerName">
+              الاسم الكامل
+            </label>
+
+            <input
+              type="text"
+              id="customerName"
+              required
+              placeholder="أدخل الاسم الكامل"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="customerPhone">
+              رقم الهاتف
+            </label>
+
+            <input
+              type="tel"
+              id="customerPhone"
+              required
+              placeholder="07XXXXXXXX"
+            >
+
+          </div>
+
+
+          <div class="form-group full-width">
+
+            <label for="customerAddress">
+              العنوان
+            </label>
+
+            <input
+              type="text"
+              id="customerAddress"
+              required
+              placeholder="المدينة والمنطقة والعنوان"
+            >
+
+          </div>
+
+
+          <div class="form-group full-width">
+
+            <label for="customerNotes">
+              ملاحظات الطلب
+            </label>
+
+            <textarea
+              id="customerNotes"
+              rows="3"
+              placeholder="أي ملاحظات إضافية"
+            ></textarea>
+
+          </div>
+
+        </div>
+
+
+        <div class="payment-section">
+
+          <h3>طريقة الدفع</h3>
+
+
+          <label class="payment-option">
+
+            <input
+              type="radio"
+              name="payment"
+              value="cash"
+              checked
+            >
+
+            <span class="payment-check"></span>
+
+            <i class="fa-solid fa-money-bill-wave"></i>
+
+            <span>
+              <strong>الدفع عند الاستلام</strong>
+              <small>ادفع نقدًا عند استلام طلبك</small>
+            </span>
+
+          </label>
+
+
+          <label class="payment-option">
+
+            <input
+              type="radio"
+              name="payment"
+              value="card"
+            >
+
+            <span class="payment-check"></span>
+
+            <i class="fa-regular fa-credit-card"></i>
+
+            <span>
+              <strong>بطاقة بنكية</strong>
+              <small>اختيار تجريبي ضمن نموذج المتجر</small>
+            </span>
+
+          </label>
+
+        </div>
+
+
+        <div class="checkout-total">
+          <span>إجمالي الطلب</span>
+          <strong id="checkoutTotal">0 د.أ</strong>
+        </div>
+
+
+        <button
+          type="submit"
+          class="place-order-btn"
+        >
+          تأكيد الطلب
+          <i class="fa-solid fa-check"></i>
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       نجاح الطلب
+  ========================== -->
+
+  <div class="modal-overlay" id="successModal">
+
+    <div class="success-box">
+
+      <div class="success-icon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+
+      <h2>
+        تم استلام طلبك بنجاح
+      </h2>
+
+      <p>
+        شكرًا لتسوقك من تك زون
+        سيتم التواصل معك لتأكيد الطلب
+      </p>
+
+      <strong id="orderNumber"></strong>
+
+      <button
+        id="closeSuccessModal"
+        class="primary-btn"
+      >
+        العودة للتسوق
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div
+    class="toast-container"
+    id="toastContainer"
+  ></div>
+
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="العودة للأعلى"
+  >
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
